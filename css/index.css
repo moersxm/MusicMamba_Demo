@@ -95,8 +95,6 @@
     line-height: 2;
 }
 
-/* Demo */
-
 .Demo h2 {
     margin-top: 40px;
     font-size: 28px;
@@ -119,6 +117,8 @@
     border: 1px solid #e9ebec;
     color: #606c7e;
     border-radius: 18px;
+    max-width: 100%;
+    table-layout: fixed;
 }
 
 .Demo th {
@@ -131,6 +131,11 @@
     text-align: center;
     padding: 0.5rem 1rem;
     font-size: 18px;
+    word-wrap: break-word;
+}
+
+.Demo audio {
+    width: 100%;
 }
 
 .link {
