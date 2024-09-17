@@ -1,0 +1,272 @@
+/* 版心居中 */
+.wrapper {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+/* 头部导航栏 */
+.header {
+    height: 56px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.header ul {
+    height: 56px;
+    width: 804px;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center; /* 设置居中对齐 */
+}
+
+.header li {
+    display: inline;
+    float: right;
+    margin-right: 25px;
+}
+
+.header li a {
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    color: #159957;
+}
+
+.header li a:hover {
+    text-decoration: underline;
+}
+
+/* banner */
+.banner {
+    padding-top: 90px;
+    height: 382px;
+    background-color: #009aae;
+}
+
+.banner h1 {
+    height: 78px;
+    font-size: 3.25rem;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h2 {
+    height: 100px;
+    line-height: 60px;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+}
+
+.banner .view {
+    text-align: center; /* 父级元素居中对齐 */
+}
+
+.banner .view a {
+    display: inline-block; /* 将按钮设置为内联块 */
+    margin: 0 10px; /* 添加左右间距 */
+    background-color: transparent; /* 按钮背景透明 */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.6); /* 半透明白色边框 */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.banner .view a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* 悬停时的背景色 */
+    border-color: rgba(255, 255, 255, 1); /* 悬停时边框完全白色 */
+}
+
+/* Abstract */
+
+.Abstract h2 {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: normal;
+    color: #159957;
+}
+
+.Abstract p {
+    margin: 20px 0;
+    color: #606c7e;
+    font-size: 17px;
+    line-height: 2;
+}
+
+/* Demo */
+
+.Demo h2 {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: normal;
+    color: #159957;
+}
+
+.Demo h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #159957;
+}
+
+.Demo table {
+    margin-bottom: 25px;
+    width: 1400px;
+    border-collapse: collapse;
+    border: 1px solid #e9ebec;
+    color: #606c7e;
+    border-radius: 18px;
+}
+
+.Demo th {
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Demo td{
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+}
+
+.link {
+    margin: 17px 0;
+    font-size: 18px;
+    color: #606c7e;
+    font-weight: 400;
+}
+
+.link a {
+    color: #1e6bb8;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Citation */
+.Citation h2 {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: normal;
+    color: #159957;
+}
+
+.Citation p {
+    margin: 17px 0;
+    font-size: 18px;
+    color: #606c7e;
+}
+
+.Citation code {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+    color: #567482;
+}
+
+.Citation div {
+    margin-bottom: 30px;
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    background-color: #f3f6fa;
+}
+
+hr {
+    background-color: #e8e8e8;
+}
+
+.Code h2 {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: normal;
+    color: #159957;
+}
+
+.Code h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #159957;
+}
+
+.Code a {
+    display: inline-block;
+    height: 28;
+    line-height: 28px;
+    color: #159957;
+}
+
+.Code a:hover {
+    text-decoration: underline;
+}
+
+.Contect h2 {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: normal;
+    color: #159957;
+}
+
+.Contect h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #159957;
+}
+
+.Contect ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.Contect li {
+    line-height: 40px;
+    color: #606c7e;
+}
+
+.Contect li a {
+    display: inline-block;
+    height: 28;
+    line-height: 28px;
+    color: #159957;
+}
+
+.Contect li a:hover {
+    text-decoration: underline;
+}
+
+.Contect a {
+    display: inline-block;
+    height: 28;
+    line-height: 28px;
+    color: #159957;
+}
+
+.Contect a:hover {
+    text-decoration: underline;
+}
+
+/* 分割线样式 */
+.footer-divider {
+    border: 0;
+    height: 1.5px;
+    background: #e0e0e0; /* 浅灰色 */
+    margin: 40px 0; /* 上下间距 */
+}
+
