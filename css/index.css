@@ -112,13 +112,11 @@
 
 .Demo table {
     margin-bottom: 25px;
-    width: 1400px;
+    width: 100%;
     border-collapse: collapse;
     border: 1px solid #e9ebec;
     color: #606c7e;
     border-radius: 18px;
-    max-width: 100%;
-    table-layout: fixed;
 }
 
 .Demo th {
