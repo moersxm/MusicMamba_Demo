@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicMamba</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 头部导航栏 -->
+    <div class="header">
+        <ul>
+            <li><a href="./cite.html">Cite</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./code.html">Code</a></li>
+            <li><a href="./index.html">MusicMamba</a></li>
+        </ul>
+    </div>
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="wrapper">
+            <h1>MusicMamba</h1>
+            <h2>The official implementation of MusicMamba</h2>
+            <div class="view">
+                <a href="#" class="btn">View on GitHub</a>
+                <a href="https://arxiv.org/abs/2409.02421" class="btn">View on arXiv</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Abstract -->
+    <div class="Abstract wrapper">
+        <h2>Abstract</h2>
+        <p>
+            In recent years, deep learning has advanced the MIDI domain, solidifying music generation as a key
+            application of artificial intelligence. However, most research focuses on Western music, facing challenges
+            in generating Chinese traditional melodies, particularly in capturing modal characteristics and emotional
+            expression. To address this, we propose the Dual-Feature Modeling Module, which integrates the long-range
+            modeling of the Mamba Block with the global structure capturing of the Transformer Block. Additionally, we
+            introduce the Bidirectional Mamba Fusion Layer, which integrates local details and global structures through
+            bidirectional scanning, enhancing sequence modeling. Building on this, we propose the REMI-M representation
+            to better capture and generate modal information in melodies. To support this, we developed FolkDB, a
+            high-quality Chinese traditional music dataset covering over 11 hours of music. Experimental results show
+            our architecture excels in generating melodies with Chinese traditional music characteristics, offering a
+            new solution for music generation.
+        </p>
+    </div>
+
+    <!-- Demo -->
+    <div class="Demo wrapper">
+        <h2>Demo</h2>
+        <h3>Midi Samples</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Primer</th>
+                    <th>Ground Truth</th>
+                    <th>Baseline1</th>
+                    <th>Baseline2</th>
+                    <th>MusicMamba</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Citation -->
+    <div class="Citation wrapper">
+        <h2>Citation</h2>
+        <p>If you find this work helpful and use our code in your research, please kindly cite our paper:</p>
+        <div>
+            <code>
+                @article{MusicMamba,<br>
+                    title={MusicMamba: A Dual-Feature Modeling Approach for Generating Chinese Traditional Music with Modal Precision},<br> 
+                    author={Jiatao Chen and Xing Tang and Tianming Xie and Jing Wang and Wenjing Dong and Bing Shi},
+                    year={2024},<br>
+                    eprint={2409.02421},<br>
+                    archivePrefix={arXiv},<br>
+              }
+            </code>
+        </div>
+        <hr>
+    </div>
+
+</body>
+
+</html>
