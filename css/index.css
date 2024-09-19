@@ -125,15 +125,16 @@
     font-weight: bold;
 }
 
-.Demo td{
+.Demo td {
     text-align: center;
+    text-size-adjust: fixed;
     padding: 0.5rem 1rem;
     font-size: 18px;
     word-wrap: break-word;
 }
 
 .Demo audio {
-    width: 100%;
+    width: 240px;
 }
 
 .link {
