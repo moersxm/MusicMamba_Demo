@@ -169,7 +169,6 @@
             var midiButtons = document.querySelectorAll('.midi-button');
 
             midiButtons.forEach(function (button) {
-                // 使用闭包来保持每个按钮的状态
                 (function (button) {
                     let isPlaying = false;
                     let midiSrc = button.getAttribute('data-midi-src');
@@ -177,11 +176,9 @@
                     console.log(midiSrc)
                     button.addEventListener('click', function () {
                         if (!isPlaying) {
-                            // 如果当前没有播放，则加载插件并播放 MIDI 文件
                             MIDIjs.play(midiSrc)
                             isPlaying = true
                         } else {
-                            // 如果正在播放，则停止播放
                             MIDIjs.stop(player);
                             isPlaying = false;
                         }
