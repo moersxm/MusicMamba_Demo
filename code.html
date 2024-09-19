@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MusicMamba</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css"
+    <link rel="stylesheet" href="./css/bootstrap.css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">\
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
@@ -28,16 +28,37 @@
             <h1>Code</h1>
             <h2>Instruction for training and inferencing theme transformer.</h2>
             <div class="view">
-                <a href="#" class="btn">View on GitHub</a>
+                <a href="https://github.com/Wietc/MusicMamba" class="btn">View on GitHub</a>
                 <a href="https://arxiv.org/abs/2409.02421" class="btn">View on arXiv</a>
             </div>
         </div>
     </div>
 
     <div class="Code wrapper">
-        <h2>Getting Stated</h1>
-        <h3>We are currently organizing the code and will release it soon. Stay tuned!</h3>
-        <!-- <a href="#">Go to Demo</a> -->
+        <h2>Getting Stated</h2>
+        <h3>Environment:</h3>
+        <ul>
+            <li>• Using python version 3.11.5</li>
+            <li>• Using pytorch version 2.2.1</li>
+            <li>
+                <p>
+                    • Install python dependencies:
+                </p>
+                <p>
+                    <div><code>pip install -r requirements.txt</code></div>
+                </p>
+            </li>
+        </ul>
+
+    
+        <p>• Mamba needs to be downloaded separately:</p>
+        <div><code>pip install mamba_ssm</code></div>
+    
+        <h3>To train the model with GPU:</h3>
+        <p>We currently do not offer fine-tuning functionality.</p>
+    
+        <h3>To generate music:</h3>
+        <div><code>python generate.py</code></div>
         <hr>
     </div>
 

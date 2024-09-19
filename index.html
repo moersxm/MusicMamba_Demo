@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MusicMamba</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css"
+    <link rel="stylesheet" href="./css/bootstrap.css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script type='text/javascript' src='https://www.midijs.net/lib/midi.js'></script>
+
 </head>
 
 <body>
@@ -28,7 +30,7 @@
             <h1>MusicMamba</h1>
             <h2>The official implementation of MusicMamba</h2>
             <div class="view">
-                <a href="#" class="btn">View on GitHub</a>
+                <a href="https://github.com/Wietc/MusicMamba" class="btn">View on GitHub</a>
                 <a href="https://arxiv.org/abs/2409.02421" class="btn">View on arXiv</a>
             </div>
         </div>
@@ -62,75 +64,83 @@
                     <th>ID</th>
                     <th>Primer</th>
                     <th>Ground Truth</th>
-                    <th>Baseline1</th>
-                    <th>Baseline2</th>
+                    <th>MusicTransformer</th>
+                    <th>MelodyT5</th>
                     <th>MusicMamba</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td>001</td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/primer/001.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/GroundTruth/001.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicTransformer/001.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MelodyT5/001.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicMamba/001.mid">click to play</a>
+                    </td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td>002</td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/primer/002.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/GroundTruth/002.midi">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicTransformer/002.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MelodyT5/002.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicMamba/002.mid">click to play</a>
+                    </td>
                 </tr>
                 <tr>
-                    <td>3</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td>003</td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/primer/003.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/GroundTruth/003.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicTransformer/003.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MelodyT5/003.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicMamba/003.mid">click to play</a>
+                    </td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
-                    <td><audio src="" controls="controls" loop="loop"></audio></td>
+                    <td>004</td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/primer/004.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/GroundTruth/004.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicTransformer/004.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MelodyT5/004.mid">click to play</a>
+                    </td>
+                    <td>
+                        <a href="javascrip:#" class="midi-button" data-midi-src="./sources/MusicMamba/004.mid">click to play</a>
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -154,6 +164,32 @@
         <hr>
     </div>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var midiButtons = document.querySelectorAll('.midi-button');
+
+            midiButtons.forEach(function (button) {
+                // 使用闭包来保持每个按钮的状态
+                (function (button) {
+                    let isPlaying = false;
+                    let midiSrc = button.getAttribute('data-midi-src');
+                    let player;
+                    console.log(midiSrc)
+                    button.addEventListener('click', function () {
+                        if (!isPlaying) {
+                            // 如果当前没有播放，则加载插件并播放 MIDI 文件
+                            MIDIjs.play(midiSrc)
+                            isPlaying = true
+                        } else {
+                            // 如果正在播放，则停止播放
+                            MIDIjs.stop(player);
+                            isPlaying = false;
+                        }
+                    });
+                })(button);
+            });
+        });
+    </script>
 </body>
 
 </html>

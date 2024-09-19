@@ -218,6 +218,29 @@ hr {
     text-decoration: underline;
 }
 
+.Code code {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+    color: #567482;
+}
+
+.Code div {
+    margin-bottom: 30px;
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    background-color: #f3f6fa;
+}
+
 .Contect h2 {
     margin-top: 40px;
     font-size: 28px;
@@ -272,4 +295,3 @@ hr {
     background: #e0e0e0; /* 浅灰色 */
     margin: 40px 0; /* 上下间距 */
 }
-
